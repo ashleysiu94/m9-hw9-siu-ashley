@@ -1,5 +1,4 @@
 //Create a class called Desserts and pass it two properties called "type" and "calories"
-
 class Desserts {
   constructor (type, calories) {
     this.type = type;
@@ -10,7 +9,7 @@ class Desserts {
 //Create a subclass called IceCream that extends Desserts
 class IceCream extends Desserts {
 //Inside of IceCream, pass in the two parent properties, as well as two new properties called "flavor" and "scoops"
-  constructor (flavor, scoops) {
+  constructor (type, calories, flavor, scoops) {
     super(type);
     super(calories);
     this.flavor = flavor;
