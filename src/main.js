@@ -21,3 +21,10 @@ class IceCream extends Desserts {
     console.log("Here is your spoon!");
   }
 }
+
+//At the bottom of your file, create a new instance of IceCream called vanillaIceCream passing in the values "Ice Cream", 340, "Vanilla", and 3
+let vanillaIceCream = new IceCream ("Ice Cream", 340, "Vanilla", 3);
+//Console.log the new object vanillaIceCream
+console.log(vanillaIceCream);
+//On a new line, call the includeSpoon() method on vanillaIceCream
+vanillaIceCream.includeSpoon();
