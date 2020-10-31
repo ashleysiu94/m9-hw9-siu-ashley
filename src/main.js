@@ -6,3 +6,13 @@ class Desserts {
     this.calories = calories;
   }
 }
+
+//Create a subclass called IceCream that extends Desserts
+class IceCream extends Desserts {
+  constructor (flavor, scoops) {
+    super(type);
+    super(calories);
+    this.flavor = flavor;
+    this.scoops = scoops;
+  }
+}
