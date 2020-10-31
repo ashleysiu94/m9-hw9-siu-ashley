@@ -9,10 +9,16 @@ class Desserts {
 
 //Create a subclass called IceCream that extends Desserts
 class IceCream extends Desserts {
+//Inside of IceCream, pass in the two parent properties, as well as two new properties called "flavor" and "scoops"
   constructor (flavor, scoops) {
     super(type);
     super(calories);
     this.flavor = flavor;
     this.scoops = scoops;
+  }
+//In the subclass IceCream, also include method called "includeSpoon"
+  includeSpoon() {
+//In this method, log the string 'Here is your spoon!' to the console
+    console.log("Here is your spoon!");
   }
 }
